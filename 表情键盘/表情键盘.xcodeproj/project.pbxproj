@@ -1,0 +1,353 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D1249FF21EC0B7710066F6CC /* UITextView-Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1249FF11EC0B7710066F6CC /* UITextView-Extension.swift */; };
+		D1292C121EC0070200BAEF4E /* Emoticons.bundle in Resources */ = {isa = PBXBuildFile; fileRef = D1292C111EC0070200BAEF4E /* Emoticons.bundle */; };
+		D1292C151EC007C800BAEF4E /* EmotionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1292C141EC007C800BAEF4E /* EmotionManager.swift */; };
+		D1292C171EC0080300BAEF4E /* EmotionPackage.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1292C161EC0080300BAEF4E /* EmotionPackage.swift */; };
+		D1292C191EC0082D00BAEF4E /* Emotion.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1292C181EC0082D00BAEF4E /* Emotion.swift */; };
+		D1292C1B1EC03AAD00BAEF4E /* EmotionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1292C1A1EC03AAD00BAEF4E /* EmotionViewCell.swift */; };
+		D1292C3B1EC07C2200BAEF4E /* EmotionAttachment.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1292C3A1EC07C2200BAEF4E /* EmotionAttachment.swift */; };
+		D133024F1EBCAA35001BF092 /* EmotionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D133024E1EBCAA35001BF092 /* EmotionController.swift */; };
+		D170F2581EBC7E460079FC0A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D170F2571EBC7E460079FC0A /* AppDelegate.swift */; };
+		D170F25A1EBC7E460079FC0A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D170F2591EBC7E460079FC0A /* ViewController.swift */; };
+		D170F25D1EBC7E460079FC0A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D170F25B1EBC7E460079FC0A /* Main.storyboard */; };
+		D170F25F1EBC7E460079FC0A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D170F25E1EBC7E460079FC0A /* Assets.xcassets */; };
+		D170F2621EBC7E460079FC0A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D170F2601EBC7E460079FC0A /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		D1249FF11EC0B7710066F6CC /* UITextView-Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UITextView-Extension.swift"; sourceTree = "<group>"; };
+		D1292C111EC0070200BAEF4E /* Emoticons.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Emoticons.bundle; sourceTree = "<group>"; };
+		D1292C141EC007C800BAEF4E /* EmotionManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmotionManager.swift; sourceTree = "<group>"; };
+		D1292C161EC0080300BAEF4E /* EmotionPackage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmotionPackage.swift; sourceTree = "<group>"; };
+		D1292C181EC0082D00BAEF4E /* Emotion.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Emotion.swift; sourceTree = "<group>"; };
+		D1292C1A1EC03AAD00BAEF4E /* EmotionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = EmotionViewCell.swift; path = Model/EmotionViewCell.swift; sourceTree = "<group>"; };
+		D1292C3A1EC07C2200BAEF4E /* EmotionAttachment.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmotionAttachment.swift; sourceTree = "<group>"; };
+		D133024E1EBCAA35001BF092 /* EmotionController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmotionController.swift; sourceTree = "<group>"; };
+		D170F2541EBC7E460079FC0A /* 表情键盘.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "表情键盘.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D170F2571EBC7E460079FC0A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D170F2591EBC7E460079FC0A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D170F25C1EBC7E460079FC0A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D170F25E1EBC7E460079FC0A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D170F2611EBC7E460079FC0A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D170F2631EBC7E460079FC0A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D170F2511EBC7E460079FC0A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D1292C131EC0078000BAEF4E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				D1292C141EC007C800BAEF4E /* EmotionManager.swift */,
+				D1292C161EC0080300BAEF4E /* EmotionPackage.swift */,
+				D1292C181EC0082D00BAEF4E /* Emotion.swift */,
+				D1292C3A1EC07C2200BAEF4E /* EmotionAttachment.swift */,
+				D1249FF11EC0B7710066F6CC /* UITextView-Extension.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		D133024D1EBCA9FA001BF092 /* Emotion */ = {
+			isa = PBXGroup;
+			children = (
+				D1292C111EC0070200BAEF4E /* Emoticons.bundle */,
+				D1292C131EC0078000BAEF4E /* Model */,
+				D133024E1EBCAA35001BF092 /* EmotionController.swift */,
+				D1292C1A1EC03AAD00BAEF4E /* EmotionViewCell.swift */,
+			);
+			path = Emotion;
+			sourceTree = "<group>";
+		};
+		D170F24B1EBC7E460079FC0A = {
+			isa = PBXGroup;
+			children = (
+				D170F2561EBC7E460079FC0A /* 表情键盘 */,
+				D170F2551EBC7E460079FC0A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D170F2551EBC7E460079FC0A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D170F2541EBC7E460079FC0A /* 表情键盘.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D170F2561EBC7E460079FC0A /* 表情键盘 */ = {
+			isa = PBXGroup;
+			children = (
+				D133024D1EBCA9FA001BF092 /* Emotion */,
+				D170F2571EBC7E460079FC0A /* AppDelegate.swift */,
+				D170F2591EBC7E460079FC0A /* ViewController.swift */,
+				D170F25B1EBC7E460079FC0A /* Main.storyboard */,
+				D170F25E1EBC7E460079FC0A /* Assets.xcassets */,
+				D170F2601EBC7E460079FC0A /* LaunchScreen.storyboard */,
+				D170F2631EBC7E460079FC0A /* Info.plist */,
+			);
+			path = "表情键盘";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D170F2531EBC7E460079FC0A /* 表情键盘 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D170F2661EBC7E460079FC0A /* Build configuration list for PBXNativeTarget "表情键盘" */;
+			buildPhases = (
+				D170F2501EBC7E460079FC0A /* Sources */,
+				D170F2511EBC7E460079FC0A /* Frameworks */,
+				D170F2521EBC7E460079FC0A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "表情键盘";
+			productName = "表情键盘";
+			productReference = D170F2541EBC7E460079FC0A /* 表情键盘.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D170F24C1EBC7E460079FC0A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = weiguang;
+				TargetAttributes = {
+					D170F2531EBC7E460079FC0A = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = D170F24F1EBC7E460079FC0A /* Build configuration list for PBXProject "表情键盘" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D170F24B1EBC7E460079FC0A;
+			productRefGroup = D170F2551EBC7E460079FC0A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D170F2531EBC7E460079FC0A /* 表情键盘 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D170F2521EBC7E460079FC0A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D170F2621EBC7E460079FC0A /* LaunchScreen.storyboard in Resources */,
+				D1292C121EC0070200BAEF4E /* Emoticons.bundle in Resources */,
+				D170F25F1EBC7E460079FC0A /* Assets.xcassets in Resources */,
+				D170F25D1EBC7E460079FC0A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D170F2501EBC7E460079FC0A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D133024F1EBCAA35001BF092 /* EmotionController.swift in Sources */,
+				D1292C151EC007C800BAEF4E /* EmotionManager.swift in Sources */,
+				D1249FF21EC0B7710066F6CC /* UITextView-Extension.swift in Sources */,
+				D1292C171EC0080300BAEF4E /* EmotionPackage.swift in Sources */,
+				D170F25A1EBC7E460079FC0A /* ViewController.swift in Sources */,
+				D170F2581EBC7E460079FC0A /* AppDelegate.swift in Sources */,
+				D1292C191EC0082D00BAEF4E /* Emotion.swift in Sources */,
+				D1292C3B1EC07C2200BAEF4E /* EmotionAttachment.swift in Sources */,
+				D1292C1B1EC03AAD00BAEF4E /* EmotionViewCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D170F25B1EBC7E460079FC0A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D170F25C1EBC7E460079FC0A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D170F2601EBC7E460079FC0A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D170F2611EBC7E460079FC0A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D170F2641EBC7E460079FC0A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D170F2651EBC7E460079FC0A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D170F2671EBC7E460079FC0A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "表情键盘/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "changhong.----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		D170F2681EBC7E460079FC0A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "表情键盘/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "changhong.----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D170F24F1EBC7E460079FC0A /* Build configuration list for PBXProject "表情键盘" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D170F2641EBC7E460079FC0A /* Debug */,
+				D170F2651EBC7E460079FC0A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D170F2661EBC7E460079FC0A /* Build configuration list for PBXNativeTarget "表情键盘" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D170F2671EBC7E460079FC0A /* Debug */,
+				D170F2681EBC7E460079FC0A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D170F24C1EBC7E460079FC0A /* Project object */;
+}
